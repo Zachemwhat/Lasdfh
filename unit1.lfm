@@ -1,0 +1,42 @@
+object Form1: TForm1
+  Left = 238
+  Height = 631
+  Top = 106
+  Width = 1020
+  Caption = 'Form1'
+  ClientHeight = 631
+  ClientWidth = 1020
+  LCLVersion = '1.6.2.0'
+  object Shape1: TShape
+    Left = 0
+    Height = 104
+    Top = 0
+    Width = 1020
+    Align = alTop
+    Brush.Color = 16754511
+  end
+  object Label1: TLabel
+    Left = 216
+    Height = 89
+    Top = 0
+    Width = 659
+    Caption = 'Калькулятор ремонта'
+    Font.Color = clWhite
+    Font.Height = -67
+    ParentColor = False
+    ParentFont = False
+  end
+  object Shape2: TShape
+    Left = 280
+    Height = 65
+    Top = 208
+    Width = 64
+    Shape = stRoundSquare
+  end
+  object Shape3: TShape
+    Left = 296
+    Height = 65
+    Top = 352
+    Width = 65
+  end
+end
